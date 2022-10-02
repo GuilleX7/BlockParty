@@ -24,7 +24,7 @@
         </repository>
         <repository>
             <id>bstats-repo</id>
-            <url>http://repo.bstats.org/content/repositories/releases/</url>
+            <url>https://repo.bstats.org/content/repositories/releases/</url>
         </repository>
         <repository>
             <id>CodeMC</id>
@@ -33,7 +33,7 @@
         <repository>
             <id>sinndev-repo</id>
             <name>Releases</name>
-            <url>http://repo.sinndev.com/content/repositories/releases/</url>
+            <url>https://repo.sinndev.com/content/repositories/releases/</url>
         </repository>
         <repository>
             <id>TimoCloud-API</id>
