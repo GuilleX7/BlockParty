@@ -91,7 +91,7 @@ public class GamePhase implements Runnable {
             }
         }
 
-        PlayerWinEvent event = new PlayerWinEvent(arena, winners);
+        PlayerWinEvent event = new PlayerWinEvent(arena, winners, winners.get(0).asPlayer());
         Bukkit.getPluginManager().callEvent(event);
 
         if (blockParty.isTimoCloud()) {
